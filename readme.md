@@ -29,7 +29,3 @@
 - **Description**: L'objectif est de trouver le mot caché en saisissant les lettres une par une et en vérifiant si elles sont présentes dans le mot à découvrir.
 
 ---
-
-## Contribute
-
-Want to add your own HTML5 game to this list? Feel free to submit a pull request (PR) following the guidelines [here](https://github.com/your-repo/contributing.md).
