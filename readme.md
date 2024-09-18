@@ -4,39 +4,29 @@
 
 <br/>
 
-## Table of Contents
-
-| Sl.No | Game Name      | Screenshot | Live URL        |
-| ----- | -------------- | ---------- | --------------- |
-| 01    | Tic Tac Toe    | ![Tic Tac Toe Screenshot](img/TicTac.Toe.png) | [Live Game](https://itachixa.github.io/TicTacTOE/) |
-| 02    | Destroy Mob    | ![Destroy Mob](img/Destroy_mob.png) | [Live Game](https://itachixa.github.io/destroy_mob/) |
-| 03    | Deviner le mot     | ![ Deviner le mot](img/Devinez%20le%20mots.png) | [Live Game](https://itachixa.github.io/Deviner_le_mot/) |
-
----
-
 ## Game Details
 
 ### 1. Tic Tac Toe
 ![Tic Tac Toe Screenshot](img/TicTac.Toe.png)
 
 - **Live URL**: [Tic Tac Toe Game](https://itachixa.github.io/TicTacTOE/)
-- **Description**: A classic Tic Tac Toe game where two players take turns marking spaces in a 3×3 grid.
+- **Description**: Un jeu classique de Tic Tac Toe où deux joueurs jouent à tour de rôle en marquant des cases dans une grille de 3×3.
 
 ---
 
 ### 2. Memory Game
 ![Destroy Mob](img/Destroy_mob.png)
 
-- **Live URL**: [Memory Game](https://itachixa.github.io/destroy_mob/)
-- **Description**: Test your memory skills by finding pairs of matching cards in this fun and challenging game.
+- **Live URL**: [Destroy Mob](https://itachixa.github.io/destroy_mob/)
+- **Description**: L'objectif est de détruire les mobs qui apparaissent à l'écran pendant un temps de 2 secondes.
 
 ---
 
 ### 3. Snake Game
-![Snake Game Screenshot](img/Devinez%20le%20mots.png)
+![Devinez le mot](img/Devinez%20le%20mots.png)
 
-- **Live URL**: [Snake Game](https://itachixa.github.io/Deviner_le_mot/)
-- **Description**: Guide the snake to eat food while avoiding the walls and its own tail in this classic retro game.
+- **Live URL**: [Devinez le mot](https://itachixa.github.io/Deviner_le_mot/)
+- **Description**: L'objectif est de trouver le mot caché en saisissant les lettres une par une et en vérifiant si elles sont présentes dans le mot à découvrir.
 
 ---
 
