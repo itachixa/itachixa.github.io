@@ -6,6 +6,7 @@ body {
     height: 100vh;
     background-size: cover;
     margin: 0;
+    padding: 0;
 }
 
 /* Infos du jeu */
@@ -14,17 +15,19 @@ body {
     justify-content: space-between;
     margin-bottom: 20px;
     width: 100%;
-    max-width: 500px; /* Pour s'adapter à la taille du container */
+    max-width: 500px; /* Limite la taille maximale pour les écrans plus grands */
+    padding: 0 10px;
 }
 
 /* Conteneur principal du jeu */
 .container {
-    height: 400px;
-    width: 500px;
+    height: 40vh; /* Utilise une hauteur relative à l'écran */
+    width: 50vw;  /* Utilise une largeur relative à l'écran */
+    max-width: 600px; /* Limite la largeur à 600px */
+    max-height: 500px; /* Limite la hauteur à 500px */
     border: 1px solid #999;
     cursor: crosshair;
     position: relative;
-    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,12 +35,15 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border-radius: 6px;
     overflow: hidden;
+    padding: 10px;
 }
 
 /* Cible du jeu */
 #target {
-    height: 60px;
-    width: 60px;
+    height: 10vw; /* La taille de la cible dépend de la largeur de la fenêtre */
+    width: 10vw;  /* Idem pour la largeur de la cible */
+    max-width: 60px; /* Taille maximale */
+    max-height: 60px; /* Hauteur maximale */
     position: absolute;
     transition: 0.25s;
     animation: animateTarget 10s infinite;
@@ -45,14 +51,15 @@ body {
 
 /* Style des boutons */
 button {
-    padding: 10px 20px;
+    padding: 2vh 4vw; /* Utilise des unités relatives pour s'adapter à la taille de l'écran */
     margin-bottom: 20px;
     background-color: #3C7103;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     color: white;
-    font-size: 16px;
+    font-size: 2.5vw; /* Taille de texte adaptative */
+    max-font-size: 18px;
 }
 
 /* Animation pour la cible */
@@ -63,38 +70,41 @@ button {
 }
 
 /* Responsivité pour les petits écrans */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .container {
-        width: 100%;
-        height: 300px; /* Réduit la hauteur pour les petits écrans */
-        padding: 10px;
+        width: 70vw;
+        height: 50vh;
     }
 
     #target {
-        height: 50px;
-        width: 50px; /* Réduit la taille de la cible sur les petits écrans */
+        height: 8vw;
+        width: 8vw;
+        max-width: 50px;
+        max-height: 50px;
     }
 
     button {
-        padding: 8px 16px;
-        font-size: 14px; /* Ajuste la taille du texte sur le bouton */
+        padding: 1.5vh 3vw;
+        font-size: 4vw;
     }
 }
 
 /* Responsivité pour les très petits écrans */
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     .container {
-        width: 100%;
-        height: 250px; /* Réduit davantage la hauteur */
+        width: 80vw;
+        height: 50vh;
     }
 
     #target {
-        height: 40px;
-        width: 40px; /* Réduit encore la taille de la cible */
+        height: 6vw;
+        width: 6vw;
+        max-width: 40px;
+        max-height: 40px;
     }
 
     button {
-        padding: 6px 12px;
-        font-size: 12px; /* Encore plus petit sur les très petits écrans */
+        padding: 1vh 2.5vw;
+        font-size: 5vw;
     }
 }
