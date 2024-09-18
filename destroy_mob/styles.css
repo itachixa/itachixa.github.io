@@ -1,0 +1,50 @@
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-size: cover ;
+ 
+
+}
+.game_infos{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+.container{
+     height: 400px;
+     width: 500px;
+     border: 1px solid #9999;
+     cursor: crosshair;
+     position: relative;
+     padding: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: aqua;
+     box-shadow:0 0 5px rgba(0,0,0,0.1);
+     border-radius: 6px;
+     overflow: hidden;
+}
+#target{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    transition:0.25s;
+    animation: animateTaget 10s infinite;
+}
+button{
+    padding: 10px 20px;
+    margin-bottom:20px;
+    background-color: #3C7103;
+    border: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+@keyframes animateTarget{
+    to{
+        transform: translateY(-200px) rotate(90deg);
+    }
+}
